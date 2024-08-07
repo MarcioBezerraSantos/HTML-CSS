@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;
+        background-image: url(P08-12-16_19.10.jpg);}
+        header {width: 600px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        background-image: url(P08-12-16_19.10.jpg);}
+        main {background-color: aliceblue;
+        padding: 10px;
+        margin: 10px}
+        main { border-radius: 20px;}
+        footer {background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding: 2px;}
+        article {background-image: url(P08-12-16_19.10.jpg);}
+        nav {background-color: white;
+        padding: 3px;}
+        nav > a {text-decoration: none;
+        color: brown;
+        font-weight: bold;}
+        nav > a:hover {text-decoration: underline;}
+        footer > p { margin: 50px; }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 10px;
+            border-radius: 50%; }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Meu Site</h1>
+       <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+       </nav>
+   </header> 
+   <main>
+    <section id="assuntos">
+        <p>Esportes Política e Tecnologia</p>
+    </section>
+    <section id="notícias">
+      <article>
+        <h2>Notícia sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos itaque doloremque distinctio fuga omnis error laudantium consequuntur necessitatibus voluptatibus sapiente eum odio architecto ipsam quas optio ipsa porro, quam quasi.</p>
+        <aside>
+            <p>Artigo escrito por José da Silva</p>
+        </aside> 
+      </article>
+    </section>
+   </main>
+   <footer>
+      Desenvolvido pelo curso em vídeo
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>
