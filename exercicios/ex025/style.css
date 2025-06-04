@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(pngtree-landscape-water-star-space-night-astronomy-sky-galaxy-background-image-image_16017607.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 12px;
+    margin: 100px auto;
+}
+input, textarea, select {
+    width: 200px;
+    padding: 6px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1rem;
+
+} 
